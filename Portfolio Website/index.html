@@ -170,17 +170,15 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
+							}, i * 200); 
 						}
 
-						// Once the animation is complete, reset the text and start over
 						setTimeout(() => {
 							typingAnimationElement.textContent = '';
 							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
 						}, text.length * 200);
 						}
 
-						// Start the typing animation loop
 						playTypingAnimation(typingTexts[0]);
 
 						</script>
@@ -188,8 +186,6 @@
 						<br>
 						<br>
 			            <h2>Student</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
 			            <p><a href="https://github.com/Jayantidahal" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 							
 		            </div>
@@ -206,7 +202,6 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
@@ -216,7 +211,6 @@
 										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
 									</div>
-									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Jayanti Dahal</span></p>
@@ -245,10 +239,8 @@
 									Actively developing skills in software development with keen interest in expanding proficiency in these technologies. </p>
 								<ul class="about-info mt-4 px-md-0 px-2">
 									<li class="d-flex"><span>Profile:</span> <span>Student &amp; Analytics</span></li>
-									<!-- <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li> -->
 									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Nepali, Hindi</span></li>
-									<!-- <li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li> -->
 									<li class="d-flex"><span>Other Skills:</span> <span>Excel, powerpoint, Git</span></li>
 									<li class="d-flex"><span>Interest:</span> <span>Traveling, Listening music</span></li>
 									
@@ -284,63 +276,6 @@
             <p>Exposure to Python, C, C++, HTML, CSS, and databases, with completed machine learning projects, demonstrating practical experience in AI, and  a commitment to expanding proficiency in software development.</p>
           </div>
         </div>
-
-		<!-- <div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2021-Present</span>
-						<h2>Engineering Student</h2>
-						<span class="position">Student</span>
-						<p class="mt-4">Advance College of Engineering and mananagement. 
-							 <ul>
-								<li>Analysed ad campaigns, clickstream, and customer surveys data, identified an increasing demand and launched a strategic product line.</li>
-								<li>Developed time series forecasting models to predict sales and optimize marketing budgets, got model performance of 92%.</li>
-								<li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM increase in the conversion rate.</li>
-							</ul> -->
-						<!-- </p>
-					</div>
-
-				</div>
-
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2018-2021</span>
-						<h2>Senior Data Analyst</h2> -->
-						<!-- <span class="position">iQuanti</span>
-						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
-							<ul>
-								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
-								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
-								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
-							</ul>
-						</p>
-					</div>
-
-				</div>
-			</div> -->
-
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2019-running</span>
-    					<h2>Bachelor of Engineering</h2>
-    					<span class="position">Advance College of Engineering and Management</span>
-    					<!-- <p class="mt-4">Grade: First class distinction.</p> -->
     				</div>
     			</div>
 
@@ -349,16 +284,11 @@
     					<span class="date">2017-2019</span>
     					<h2>Higher Secondary School</h2>
     					<span class="position">BVM Higher Secondary English School</span>
-    					<!-- <p class="mt-4">Grade: First class distinction.</p> -->
     				</div>
 				</div>
     		</div>
 
-    		<!-- <div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1OfkU5LAlarbwaOvKtl2UW57WEEDjPwLZ/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div> -->
+    		
     	</div>
     </section>
 
@@ -370,47 +300,33 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the projects using machine learning.</p>
+            <p>Below are my projects.</p>
           </div>
         </div>
-        <!-- <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="github link" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="github link">Image Caption Generation using CNN and Deep Learning</a></h3>
-                <p>Generated image captions by training a Convolutional Neural Network (CNN) to extract features and using a Deep Learning model for text generation..</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate"> -->
-          	<!-- <div class="blog-entry justify-content-end">
-              <a href="github Link" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="github Link">Nepali Fake Currency Detection using Deep Learning</a></h3>
-                <p>Developed a deep learning model to identify counterfeit Nepali currency..</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Power BI Sales dashboard Project for Beginners</a></h3>
-                <p>Designed a power bi dashboard for Madhav Store to track and analyze the online sales data acorss India.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-	<br> -->
-		<!-- added justify-content-center to center align the last two projects -->
+        
 		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="github Link" class="block-20 zoom-effect" style="background-image: url('images/proj_3.PNG');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="github link">Ecommerce website using HTML,CSS and JS</a></h3>
+				  <p>An ecommerce website to sell varieties of sarees.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Jayantidahal/Nepali-fake-currency-detection-system" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Jayantidahal/Nepali-fake-currency-detection-system">Nepali Currency Classification and Fake currency Detection using Deep Learning</a></h3>
+				  <p>Implemented a deep learning ML model to classify authentic Nepali currency &amp; detect counterfeit notes.</p>
+				</div>
+			  </div>
+			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
 				<a href="github Link" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
@@ -422,56 +338,11 @@
 				</div>
 			  </div>
 			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="github Link" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="github Link">Nepali Currency Classification and Fake currency Detection using Deep Learning</a></h3>
-				  <p>Implemented a deep learning ML model to classify authentic Nepali currency &amp; detect counterfeit notes..</p>
-				</div>
-			  </div>
-			</div>
 		 </div>
 	  </div>
     </section>
 
-	<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-      <div class="container">
-		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="20">0</strong>
-                <span>Achievements</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="2">0</strong>
-                <span>Projects</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Mentored Students</span>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <strong class="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
-              </div>
-            </div>
-          </div> -->
+	
         </div>
       </div>
 	
@@ -566,25 +437,7 @@
 
  
 	
- <footer class="ftco-footer ftco-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    <!-- Removed copyright notice -->
-                    <!-- This template is made with
-                    <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
-  <!-- loader -->
+ 
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
